@@ -12,6 +12,11 @@ export function pool(url = process.env.DATABASE_URL): Pool {
   return new pg.Pool({ connectionString: url, max: 4 })
 }
 
+// The department's own publication date is part of what a reading says, so a
+// republish that restates the same figures still closes the row and opens a new
+// one. That is deliberate: knowing the department looked again and did not move
+// the number is worth as much as knowing it moved. Movements are a narrower
+// thing and queries.moves picks them out by comparing the days.
 const SAME = ['p25', 'p50', 'p75', 'p90', 'updated', 'end_at', 'stream_text'] as const
 
 const alike = (a: any, b: Reading) =>
