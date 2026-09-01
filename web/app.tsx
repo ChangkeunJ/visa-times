@@ -208,7 +208,7 @@ export default function App() {
           {c && (
             <p className="cover">
               {c.open} readings across {c.subclasses} visa subclasses, the department's figures as published{' '}
-              {day(c.published)}, read here {c.runs} times since {day(c.since)}.
+              {day(c.published)}, read here {c.runs === 1 ? 'once' : `${c.runs} times`} since {day(c.since)}.
             </p>
           )}
         </div>
