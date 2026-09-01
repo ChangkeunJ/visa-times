@@ -68,7 +68,7 @@ function Line({ d }: { d: Hist[] }) {
 function Detail({ r }: { r: Row }) {
   const { v } = useJson<Hist[]>(`/api/history?subclass=${r.subclass}&stream=${encodeURIComponent(r.stream)}`)
   return (
-    <div className="detail">
+    <div className="detail" role="region" aria-label="visa processing detail">
       <div className="quart">
         {([['25%', r.p25], ['Half', r.p50], ['75%', r.p75], ['90%', r.p90]] as const).map(([k, val]) => (
           <div key={k}>
