@@ -1,0 +1,62 @@
+{
+ "date": "2026-09-01",
+ "coverage": {
+  "open": 95,
+  "readings": 95,
+  "subclasses": 52,
+  "runs": 7,
+  "since": "2026-09-01 14:00:35.944586+00",
+  "latest": "2026-09-01 14:01:38.840766+00",
+  "published": "2026-08-04"
+ },
+ "slowest": [
+  {
+   "subclass": "117",
+   "name": "Orphan relative",
+   "stream": "",
+   "p50": "77 Months",
+   "p90": "97 Months"
+  },
+  {
+   "subclass": "132",
+   "name": "Business Talent (Permanent) visa",
+   "stream": "Significant Business History",
+   "p50": "67 Months",
+   "p90": "70 Months"
+  },
+  {
+   "subclass": "189",
+   "name": "Skilled Independent visa (Points-tested)",
+   "stream": "New Zealand",
+   "p50": "53 Months",
+   "p90": "61 Months"
+  },
+  {
+   "subclass": "188",
+   "name": "Business Innovation and Investment (provisional) visa",
+   "stream": "Business Innovation",
+   "p50": "52 Months",
+   "p90": "59 Months"
+  },
+  {
+   "subclass": "101",
+   "name": "Child visa",
+   "stream": "",
+   "p50": "26 Months",
+   "p90": "33 Months"
+  }
+ ],
+ "moved": [],
+ "stopped": [
+  {
+   "subclass": "159",
+   "name": "",
+   "updated": "2023-08-31"
+  },
+  {
+   "subclass": "476",
+   "name": "Skilled Recognised Graduate visa",
+   "updated": "2024-12-18"
+  }
+ ]
+}

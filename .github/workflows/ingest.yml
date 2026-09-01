@@ -1,0 +1,40 @@
+name: ingest
+
+on:
+  schedule:
+    # Every day. The department republishes about once a month, on no announced
+    # day, and the only way to catch the day it moves is to look every day.
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: psql "$DATABASE_URL" -f schema.sql
+      - run: npm run build
+      - run: node dist/src/read.js
+      - run: node dist/src/summary.js
+      - name: commit the day
+        run: |
+          git config user.name ChangkeunJ
+          git config user.email reiot92@gmail.com
+          git add data
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "$(date -u +%Y-%m-%d) readings"
+          git push

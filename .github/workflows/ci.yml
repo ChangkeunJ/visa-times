@@ -1,0 +1,33 @@
+name: ci
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: visa
+          POSTGRES_PASSWORD: visa
+          POSTGRES_DB: visa
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U visa"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      DATABASE_URL: postgres://visa:visa@localhost:5432/visa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: psql "$DATABASE_URL" -f schema.sql
+      - run: npm test
+      - run: npm run check
+      - run: npm run build:web
