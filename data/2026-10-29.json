@@ -1,0 +1,903 @@
+{
+ "date": "2026-10-29",
+ "coverage": {
+  "open": 104,
+  "readings": 289,
+  "subclasses": 53,
+  "runs": 59,
+  "since": "2026-09-01 14:07:20.639295+00",
+  "latest": "2026-10-29 00:36:26.399162+00",
+  "published": "2026-10-12"
+ },
+ "slowest": [
+  {
+   "subclass": "117",
+   "name": "Orphan relative",
+   "stream": "",
+   "p50": "75 Months",
+   "p90": "97 Months"
+  },
+  {
+   "subclass": "132",
+   "name": "Business Talent (Permanent) visa",
+   "stream": "Significant Business History",
+   "p50": "67 Months",
+   "p90": "70 Months"
+  },
+  {
+   "subclass": "189",
+   "name": "Skilled Independent visa (Points-tested)",
+   "stream": "New Zealand",
+   "p50": "54 Months",
+   "p90": "61 Months"
+  },
+  {
+   "subclass": "101",
+   "name": "Child visa",
+   "stream": "",
+   "p50": "24 Months",
+   "p90": "33 Months"
+  },
+  {
+   "subclass": "309",
+   "name": "Partner (Provisional) visa",
+   "stream": "",
+   "p50": "21 Months",
+   "p90": "32 Months"
+  }
+ ],
+ "moved": [
+  {
+   "subclass": "188",
+   "name": "Business Innovation and Investment (provisional) visa",
+   "stream": "Business Innovation",
+   "p50": [
+    "52 Months",
+    "Processing times are not available"
+   ],
+   "p90": [
+    "59 Months",
+    "Processing times are not available"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "491",
+   "name": "Skilled Work Regional (provisional) visa",
+   "stream": "State/Territory Government Nominated Regional",
+   "p50": [
+    "16 Months",
+    "5 Months"
+   ],
+   "p90": [
+    "26 Months",
+    "18 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "309",
+   "name": "Partner (Provisional) visa",
+   "stream": "",
+   "p50": [
+    "21 Months",
+    "21 Months"
+   ],
+   "p90": [
+    "39 Months",
+    "32 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "407",
+   "name": "Training visa",
+   "stream": "",
+   "p50": [
+    "38 Days",
+    "12 Months"
+   ],
+   "p90": [
+    "13 Months",
+    "20 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "187",
+   "name": "Regional Sponsor Migration Scheme",
+   "stream": "Transition Pathway",
+   "p50": [
+    "73 Days",
+    "Processing times are not available"
+   ],
+   "p90": [
+    "5 Months",
+    "Processing times are not available"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Research Activities",
+   "p50": [
+    "64 Days",
+    "15 Months"
+   ],
+   "p90": [
+    "13 Months",
+    "17 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "186",
+   "name": "Employer Nomination Scheme",
+   "stream": "Direct Entry Pathway",
+   "p50": [
+    "13 Months",
+    "21 Months"
+   ],
+   "p90": [
+    "21 Months",
+    "25 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "186",
+   "name": "Employer Nomination Scheme",
+   "stream": "Transition Pathway",
+   "p50": [
+    "14 Months",
+    "21 Months"
+   ],
+   "p90": [
+    "22 Months",
+    "25 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "100",
+   "name": "Partner (Migrant) visa",
+   "stream": "",
+   "p50": [
+    "9 Months",
+    "9 Months"
+   ],
+   "p90": [
+    "18 Months",
+    "21 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Religious Work",
+   "p50": [
+    "90 Days",
+    "3 Months"
+   ],
+   "p90": [
+    "8 Months",
+    "5 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Sporting Activities",
+   "p50": [
+    "18 Days",
+    "16 Days"
+   ],
+   "p90": [
+    "46 Days",
+    "4 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "117",
+   "name": "Orphan relative",
+   "stream": "",
+   "p50": [
+    "76 Months",
+    "75 Months"
+   ],
+   "p90": [
+    "99 Months",
+    "97 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "102",
+   "name": "Adoption visa",
+   "stream": "",
+   "p50": [
+    "8 Months",
+    "8 Months"
+   ],
+   "p90": [
+    "17 Months",
+    "19 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "801",
+   "name": "Partner (Permanent) visa",
+   "stream": "",
+   "p50": [
+    "3 Months",
+    "8 Months"
+   ],
+   "p90": [
+    "17 Months",
+    "19 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Higher Education Sector",
+   "p50": [
+    "19 Days",
+    "16 Days"
+   ],
+   "p90": [
+    "71 Days",
+    "4 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "417",
+   "name": "Working Holiday visa",
+   "stream": "",
+   "p50": [
+    "3 Days",
+    "2 Days"
+   ],
+   "p90": [
+    "20 Days",
+    "58 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "485",
+   "name": "Meeting the Temporary Graduate visa study requirement",
+   "stream": "Post-Higher Education Work",
+   "p50": [
+    "11 Days",
+    "5 Days"
+   ],
+   "p90": [
+    "3 Months",
+    "55 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "590",
+   "name": "Student Guardian visa",
+   "stream": "",
+   "p50": [
+    "41 Days",
+    "43 Days"
+   ],
+   "p90": [
+    "7 Months",
+    "8 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "188",
+   "name": "Business Innovation and Investment (provisional) visa",
+   "stream": "Business Innovation Extension",
+   "p50": [
+    "6 Months",
+    "6 Months"
+   ],
+   "p90": [
+    "10 Months",
+    "11 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "190",
+   "name": "Skilled Nominated visa",
+   "stream": "",
+   "p50": [
+    "5 Months",
+    "4 Months"
+   ],
+   "p90": [
+    "17 Months",
+    "16 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "445",
+   "name": "Dependent Child visa",
+   "stream": "",
+   "p50": [
+    "24 Months",
+    "25 Months"
+   ],
+   "p90": [
+    "31 Months",
+    "32 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "485",
+   "name": "Meeting the Temporary Graduate visa study requirement",
+   "stream": "Post-Vocation Education Work",
+   "p50": [
+    "45 Days",
+    "52 Days"
+   ],
+   "p90": [
+    "4 Months",
+    "5 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "491",
+   "name": "Skilled Work Regional (provisional) visa",
+   "stream": "Family Sponsored Regional",
+   "p50": [
+    "3 Months",
+    "4 Months"
+   ],
+   "p90": [
+    "6 Months",
+    "7 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "494",
+   "name": "Skilled Employer Sponsored Regional (provisional)",
+   "stream": "Labour Agreement",
+   "p50": [
+    "3 Months",
+    "4 Months"
+   ],
+   "p90": [
+    "11 Months",
+    "12 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "802",
+   "name": "Child visa",
+   "stream": "",
+   "p50": [
+    "21 Months",
+    "21 Months"
+   ],
+   "p90": [
+    "30 Months",
+    "31 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "820",
+   "name": "Partner (Temporary) visa",
+   "stream": "",
+   "p50": [
+    "23 Months",
+    "22 Months"
+   ],
+   "p90": [
+    "29 Months",
+    "30 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "870",
+   "name": "Sponsored Parent (Temporary) visa",
+   "stream": "Sponsorship",
+   "p50": [
+    "79 days",
+    "89 days"
+   ],
+   "p90": [
+    "5 months",
+    "4 months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "887",
+   "name": "Skilled Regional visa",
+   "stream": "",
+   "p50": [
+    "9 Months",
+    "10 Months"
+   ],
+   "p90": [
+    "18 Months",
+    "17 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "888",
+   "name": "Business Innovation and Investment (permanent) visa",
+   "stream": "Investor",
+   "p50": [
+    "5 Months",
+    "5 Months"
+   ],
+   "p90": [
+    "7 Months",
+    "6 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "888",
+   "name": "Business Innovation and Investment (permanent) visa",
+   "stream": "Significant Investor",
+   "p50": [
+    "4 Months",
+    "4 Months"
+   ],
+   "p90": [
+    "7 Months",
+    "8 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "462",
+   "name": "New Work and Holiday visa pre-application process",
+   "stream": "",
+   "p50": [
+    "8 Days",
+    "3 Days"
+   ],
+   "p90": [
+    "22 Days",
+    "44 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "403",
+   "name": "Temporary Work (International relations) visa streams",
+   "stream": "Government Agreement",
+   "p50": [
+    "13 Days",
+    "12 Days"
+   ],
+   "p90": [
+    "23 Days",
+    "45 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Non-Award Sector",
+   "p50": [
+    "1 Day",
+    "3 Days"
+   ],
+   "p90": [
+    "25 Days",
+    "43 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Exchange Arrangements",
+   "p50": [
+    "37 Days",
+    "28 Days"
+   ],
+   "p90": [
+    "41 Days",
+    "52 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Superyacht Crew",
+   "p50": [
+    "8 Days",
+    "7 Days"
+   ],
+   "p90": [
+    "27 Days",
+    "35 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Special Programs",
+   "p50": [
+    "40 Days",
+    "31 Days"
+   ],
+   "p90": [
+    "49 Days",
+    "56 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Foreign Affairs or Defence Sector",
+   "p50": [
+    "3 Days",
+    "3 Days"
+   ],
+   "p90": [
+    "15 Days",
+    "22 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "600",
+   "name": "Visitor visa Business Visitor stream",
+   "stream": "Tourist",
+   "p50": [
+    "18 Days",
+    "21 Days"
+   ],
+   "p90": [
+    "38 Days",
+    "33 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Postgraduate Research Sector",
+   "p50": [
+    "12 Days",
+    "17 Days"
+   ],
+   "p90": [
+    "60 Days",
+    "55 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Invited for Other Social and Cultural Activity",
+   "p50": [
+    "3 Days",
+    "4 Days"
+   ],
+   "p90": [
+    "26 Days",
+    "22 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "403",
+   "name": "Temporary Work (International relations) visa streams",
+   "stream": "Domestic Worker (Diplomatic or Consular)",
+   "p50": [
+    "52 Days",
+    "27 Days"
+   ],
+   "p90": [
+    "82 Days",
+    "78 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "400",
+   "name": "Temporary Work (Short Stay Specialist) visa",
+   "stream": "",
+   "p50": [
+    "9 Days",
+    "8 Days"
+   ],
+   "p90": [
+    "39 Days",
+    "43 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "771",
+   "name": "Transit visa",
+   "stream": "",
+   "p50": [
+    "3 Days",
+    "3 Days"
+   ],
+   "p90": [
+    "16 Days",
+    "13 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "157",
+   "name": "",
+   "stream": "",
+   "p50": [
+    "20 Days",
+    "18 Days"
+   ],
+   "p90": [
+    "67 Days",
+    "65 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "988",
+   "name": "Maritime Crew visa",
+   "stream": "",
+   "p50": [
+    "Less than 1 Day",
+    "Less than 1 Day"
+   ],
+   "p90": [
+    "1 Day",
+    "3 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "403",
+   "name": "Temporary Work (International relations) visa streams",
+   "stream": "Pacific Australia Labour Mobility Scheme",
+   "p50": [
+    "9 Days",
+    "15 Days"
+   ],
+   "p90": [
+    "29 Days",
+    "30 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "600",
+   "name": "Visitor visa Business Visitor stream",
+   "stream": "Business Visitor",
+   "p50": [
+    "7 Days",
+    "7 Days"
+   ],
+   "p90": [
+    "20 Days",
+    "19 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Independent ELICOS Sector",
+   "p50": [
+    "18 Days",
+    "22 Days"
+   ],
+   "p90": [
+    "52 Days",
+    "53 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "408",
+   "name": "Temporary Activity visa streams",
+   "stream": "Entertainment Activities",
+   "p50": [
+    "24 Days",
+    "23 Days"
+   ],
+   "p90": [
+    "47 Days",
+    "47 Days"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "403",
+   "name": "Temporary Work (International relations) visa streams",
+   "stream": "Foreign Government Agency",
+   "p50": [
+    "25 Days",
+    "50 Days"
+   ],
+   "p90": [
+    "4 Months",
+    "4 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "494",
+   "name": "Skilled Employer Sponsored Regional (provisional)",
+   "stream": "Employer Sponsored",
+   "p50": [
+    "4 Months",
+    "8 Months"
+   ],
+   "p90": [
+    "12 Months",
+    "12 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "189",
+   "name": "Skilled Independent visa (Points-tested)",
+   "stream": "New Zealand",
+   "p50": [
+    "53 Months",
+    "54 Months"
+   ],
+   "p90": [
+    "61 Months",
+    "61 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "870",
+   "name": "Sponsored Parent (Temporary) visa",
+   "stream": "Visa Application",
+   "p50": [
+    "8 Months",
+    "7 Months"
+   ],
+   "p90": [
+    "9 Months",
+    "9 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "189",
+   "name": "Skilled Independent visa (Points-tested)",
+   "stream": "Points-Tested",
+   "p50": [
+    "7 Months",
+    "61 Days"
+   ],
+   "p90": [
+    "8 Months",
+    "8 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "186",
+   "name": "Employer Nomination Scheme",
+   "stream": "Agreement Pathway",
+   "p50": [
+    "58 Days",
+    "50 Days"
+   ],
+   "p90": [
+    "12 Months",
+    "12 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "101",
+   "name": "Child visa",
+   "stream": "",
+   "p50": [
+    "23 Months",
+    "24 Months"
+   ],
+   "p90": [
+    "33 Months",
+    "33 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Vocational Education and Training Sector",
+   "p50": [
+    "3 Months",
+    "53 Days"
+   ],
+   "p90": [
+    "7 Months",
+    "7 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "500",
+   "name": "Student visa",
+   "stream": "Schools Sector",
+   "p50": [
+    "26 Days",
+    "28 Days"
+   ],
+   "p90": [
+    "7 Months",
+    "7 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "600",
+   "name": "Visitor visa Business Visitor stream",
+   "stream": "Sponsored Family",
+   "p50": [
+    "46 Days",
+    "40 Days"
+   ],
+   "p90": [
+    "3 Months",
+    "3 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  },
+  {
+   "subclass": "602",
+   "name": "Medical Treatment visa",
+   "stream": "",
+   "p50": [
+    "17 Days",
+    "19 Days"
+   ],
+   "p90": [
+    "3 Months",
+    "3 Months"
+   ],
+   "at": "2026-09-29T00:49:40.108Z"
+  }
+ ],
+ "stopped": [
+  {
+   "subclass": "159",
+   "name": "",
+   "updated": "2023-08-31"
+  },
+  {
+   "subclass": "476",
+   "name": "Skilled Recognised Graduate visa",
+   "updated": "2024-12-18"
+  }
+ ]
+}
